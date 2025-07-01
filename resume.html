@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dan Grayson | Virtual Assistant Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #5b6ef5;
+      --secondary: #764ba2;
+      --bg: #f9fafb;
+      --text-dark: #2c3e50;
+      --text-light: #6c757d;
+      --white: #fff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text-dark);
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .resume {
+      max-width: 900px;
+      margin: auto;
+      background: var(--white);
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: var(--white);
+      padding: 40px 30px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      background: #ddd;
+      margin: auto;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      border: 4px solid var(--white);
+      margin-bottom: 20px;
+    }
+
+    .circle-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+    }
+    .name {
+      font-size: 2.2em;
+      font-weight: 700;
+    }
+
+    .title {
+      font-size: 1.2em;
+      margin-top: 5px;
+      opacity: 0.9;
+    }
+
+    .contact {
+      margin-top: 15px;
+      font-size: 0.95em;
+    }
+
+    .contact div {
+      margin: 5px 0;
+    }
+
+    .section {
+      padding: 30px;
+      border-top: 1px solid #eee;
+    }
+
+    .section-title {
+      font-size: 1.3em;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: var(--primary);
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 5px;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #f4f6fa;
+      padding: 15px 20px;
+      border-radius: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .language, .cert, .achievement {
+      background: #e8ecf7;
+      padding: 8px 14px;
+      border-radius: 20px;
+      margin: 5px;
+      display: inline-block;
+      font-size: 0.9em;
+      color: var(--text-dark);
+    }
+
+    .availability {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 1em;
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        padding: 30px 20px;
+      }
+
+      .section {
+        padding: 20px;
+      }
+
+      .name {
+        font-size: 1.8em;
+      }
+
+      .title {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume">
+    <div class="header">
+      <div class="profile-img"><img src="image/image.jpg" alt="My Profile Picture" class="circle-img"></div>
+</div>
+      <div class="name">Dan Grayson</div>
+      <div class="title">Professional Virtual Assistant & Multi-Service Freelancer</div>
+      <div class="contact">
+        <div>📧 dan.grayson.va@gmail.com</div>
+        <div>📱 +1 (253) 455-6466</div>
+        <div>🏠 10727 186th, Puyallup, Washington, 98374</div>
+        <div>💼 LinkedIn: /in/yourname</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Professional Summary</div>
+      <p>
+        Versatile and results-driven freelancer with 3+ years of experience delivering high-quality services across multiple industries. Specializing in virtual assistance, content creation, digital marketing, and administrative support for U.S.-based businesses. Proven track record of increasing client efficiency by 40% through streamlined processes and proactive communication. Based in Washington and available during U.S. business hours with exceptional English proficiency and cultural understanding.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Core Competencies</div>
+      <div class="two-column">
+        <div class="card">
+          <strong>Administrative Services</strong>
+          <ul>
+            <li>Email & Calendar Management</li>
+            <li>CRM Tools</li>
+            <li>Travel & Scheduling</li>
+            <li>Data Entry & Docs</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Content & Marketing</strong>
+          <ul>
+            <li>SEO & Blog Writing</li>
+            <li>Social Media Management</li>
+            <li>Graphic Design (Canva)</li>
+            <li>Email Campaigns</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Technical Skills</strong>
+          <ul>
+            <li>Google Workspace</li>
+            <li>Microsoft Office</li>
+            <li>WordPress & HTML/CSS</li>
+            <li>Online Research & Transcription</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Business Support</strong>
+          <ul>
+            <li>Customer Service</li>
+            <li>Lead Generation</li>
+            <li>Project Coordination</li>
+            <li>Market & Financial Reports</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Professional Experience</div>
+      <div class="card">
+        <strong>Senior Virtual Assistant</strong><br>
+        Multiple US-Based Clients (Upwork/Fiverr)<br>
+        <em>2022 - Present | Remote</em>
+        <ul>
+          <li>Managed admin tasks for 15+ business owners</li>
+          <li>Created 500+ social posts, boosted engagement by 25%</li>
+          <li>Transcribed 1,000+ hours with 99.5% accuracy</li>
+          <li>Generated 200+ qualified leads monthly</li>
+        </ul>
+      </div>
+      <div class="card">
+        <strong>Content Writer & Digital Marketing Assistant</strong><br>
+        Various International Clients<br>
+        <em>2021 - Present | Remote</em>
+        <ul>
+          <li>Wrote 100+ SEO articles, raised traffic by 40%</li>
+          <li>Managed social accounts with 50K+ followers</li>
+          <li>Email campaigns with 25% open rate</li>
+          <li>Designed 200+ graphics for marketing</li>
+        </ul>
+      </div>
+      <div class="card">
+        <strong>Administrative Coordinator</strong><br>
+        Local Business Enterprises<br>
+        <em>2020 - 2022 | Remote</em>
+        <ul>
+          <li>Streamlined ops and boosted efficiency by 30%</li>
+          <li>Maintained 95% customer satisfaction</li>
+          <li>Introduced digital filing systems</li>
+          <li>Trained junior admin staff</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Education & Certifications</div>
+      <div class="card">
+        <strong>BSc in Data Science</strong><br>
+        Cooperative University<br>
+        <em>2018 - 2022</em>
+      </div>
+      <div class="two-column">
+        <div class="language">Google Digital Marketing - 2023</div>
+        <div class="language">Microsoft Office Specialist - 2022</div>
+        <div class="language">HubSpot Social Media Cert. - 2023</div>
+        <div class="language">Content Marketing Institute - 2023</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Languages</div>
+      <div class="language">English - Native/Fluent</div>
+      <div class="language">Swahili - Fluent</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Key Achievements</div>
+      <div class="achievement">🏆 99%+ Client Satisfaction</div>
+      <div class="achievement">🏆 $50,000+ Revenue Generated for Clients</div>
+      <div class="achievement">🏆 500+ Hours Transcribed</div>
+      <div class="achievement">🏆 Built Social Community of 100K+</div>
+      <div class="achievement">🏆 Top 10% Freelancer Ranking</div>
+      <div class="achievement">🏆 Projects in 15+ Industries</div>
+    </div>
+
+    <div class="availability">
+      🌟 <strong>Ready to Start Immediately</strong><br>
+      Available 40+ hours/week | U.S. Business Hours (EST)<br>
+      Let’s connect and grow your business!
+    </div>
+  </div>
+
+</body>
+</html>
